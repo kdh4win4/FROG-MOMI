@@ -1,1 +1,10 @@
-
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+umap-learn
+gseapy
+streamlit
+pyyaml
+tqdm
