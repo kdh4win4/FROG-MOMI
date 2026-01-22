@@ -1,1 +1,14 @@
+dataset:
+  source: TCGA
+  cancer: BRCA
+  data_type: RNAseq
+  unit: TPM
+  log_transform: true
 
+phenotype:
+  label: vital_status   # binary: Alive / Dead
+  positive: Dead
+
+filter:
+  min_samples: 100
+  min_genes: 5000
