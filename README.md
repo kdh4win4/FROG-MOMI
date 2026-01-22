@@ -42,3 +42,35 @@ This project is designed to demonstrate **how AI supports biomedical decision-ma
 
 ## Disclaimer
 Public data only. No PHI used.
+
+## Demo (visual overview)
+
+> This section will show the full end-to-end workflow once the MVP is complete.
+
+### 1. Sample stratification
+UMAP embedding of samples with unsupervised clustering to reveal latent subtypes.
+
+![Stratification](docs/figures/stratify.png)
+
+---
+
+### 2. Phenotype prediction + explainability
+XGBoost model predicts clinical phenotype, with SHAP highlighting key drivers.
+
+![Prediction](docs/figures/shap.png)
+
+---
+
+### 3. Target discovery
+Differential expression and pathway enrichment identify candidate targets.
+
+![Targets](docs/figures/targets.png)
+
+---
+
+### 4. Evidence report (auto-generated)
+Top candidates are summarized with retrieved literature evidence in a Markdown report.
+
+![Report](docs/figures/report.png)
+
+
