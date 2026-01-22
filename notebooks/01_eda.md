@@ -9,3 +9,8 @@ X.shape, meta.head()
 
 meta["label"] = (meta["vital_status"] == "Dead").astype(int)
 meta["label"].value_counts()
+
+## 2.Define phenotype
+```python
+meta["label"] = (meta["vital_status"] == "Dead").astype(int)
+meta["label"].value_counts()
