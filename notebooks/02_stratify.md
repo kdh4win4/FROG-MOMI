@@ -29,3 +29,8 @@ from src.stratify import cluster_kmeans
 clusters = cluster_kmeans(emb, k=3)
 clusters.value_counts()
 ```
+
+## 4. Interpretation
+Clusters represent putative molecular subtypes.
+In later steps, we will examine phenotype enrichment and pathway differences across these subgroups.
+
