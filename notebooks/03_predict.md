@@ -58,7 +58,7 @@ shap_values = explainer.shap_values(X_test)
 shap.summary_plot(shap_values, X_test, show=False)
 ```
 
-# 5. Interpretation
+## 5. Interpretation
 The model captures a small set of genes that strongly drive
 clinical outcome prediction. These features will be prioritized
 in the next step for target discovery and pathway analysis.
