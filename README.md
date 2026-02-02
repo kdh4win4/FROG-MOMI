@@ -1,4 +1,12 @@
 # FROG-MOMI
+
+AI-driven target discovery pipeline using TCGA BRCA data,
+combining machine learning prediction, SHAP-based explainability,
+and differential expression analysis.
+
+This project demonstrates an end-to-end workflow for identifying
+biologically interpretable candidate targets using explainable AI.
+
 **Multi-Omics + Clinical Stratification → Target Discovery → Evidence Report**
 
 End-to-end, reproducible pipeline that connects public multi-omics data with
