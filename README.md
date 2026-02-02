@@ -59,7 +59,7 @@ Public data only. No PHI used.
 ### 1. Sample stratification
 UMAP embedding of samples with unsupervised clustering to reveal latent subtypes.
 
-![Stratification](docs/figures/stratify.png)
+![Stratification](notebooks/data/processed/UMAP.png)
 
 ---
 
