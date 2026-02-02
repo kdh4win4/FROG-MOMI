@@ -67,7 +67,7 @@ UMAP embedding of samples with unsupervised clustering to reveal latent subtypes
 We used SHAP to interpret the XGBoost classifier and identify
 genes with the strongest contribution to survival prediction.
 
-![Prediction](docs/figures/shap.png)
+![Prediction](notebooks/data/processed/shap.png)
 
 ---
 
